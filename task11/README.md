@@ -14,14 +14,22 @@ https://explorer.nervos.org/aggron/address/ckt1qyqzf0d42h32plm5gjfssusqra547xrpm
 
 ## A screenshot of the console output immediately after you have successfully issued a smart contract calls on Layer 2.
 
+![ckb11 2](https://user-images.githubusercontent.com/20263044/130639041-e5310f29-beba-4481-85cf-c764b2a3f044.png)
 
 ## The transaction hash of the "Contract call" from the console output (in text format).
 
+0x1917bd869a94d8f57dc805103d5147d8dce83989c3dd3f319c5315837ad8f599
 
 ## The contract address that you called (in text format).
 
+0xE935e8821dd3ADEea76F57c283A849171930C19B
 
 ## The ABI for contract you made a call on (in text format).
 
+```
+[{"inputs": [],"stateMutability": "payable","type": "constructor"},{"inputs": [{"internalType": "uint256","name": "x","type": "uint256"}],"name": "set","outputs":[],"stateMutability": "payable","type": "function"},{"inputs": [],"name": "get","outputs": [{"internalType": "uint256","name": "","type": "uint256"}],"stateMutability": "view","type": "function"}]
+```
 
 ## Your Tron address (in text format).
+
+TWZtJLVyPW7emDFhG4Aef41fYh7PKxU6ry
